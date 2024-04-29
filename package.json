@@ -31,7 +31,7 @@
     "@builder.io/qwik": "1.4.3",
     "@builder.io/qwik-city": "1.4.3",
     "@playwright/test": "1.41.2",
-    "@storybook/addon-essentials": "7.6.12",
+    "@storybook/addon-essentials": "8.0.9",
     "@storybook/addon-links": "7.6.12",
     "@storybook/blocks": "7.6.12",
     "@storybook/builder-vite": "7.6.12",
