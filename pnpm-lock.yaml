@@ -97,8 +97,8 @@ importers:
         specifier: 5.8.3
         version: 5.8.3
       undici:
-        specifier: 7.11.0
-        version: 7.11.0
+        specifier: 7.13.0
+        version: 7.13.0
       vercel:
         specifier: 44.2.13
         version: 44.2.13(rollup@4.44.1)
@@ -3653,8 +3653,12 @@ packages:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
 
-  undici@7.11.0:
-    resolution: {integrity: sha512-heTSIac3iLhsmZhUCjyS3JQEkZELateufzZuBaVM5RHXdSBMb1LPMQf5x+FH7qjsZYDP0ttAc3nnVpUB+wYbOg==}
+  undici@5.29.0:
+    resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
+    engines: {node: '>=14.0'}
+
+  undici@7.13.0:
+    resolution: {integrity: sha512-l+zSMssRqrzDcb3fjMkjjLGmuiiK2pMIcV++mJaAc9vhjSGpvM7h43QgP+OAMb1GImHmbPyG2tBXeuyG5iY4gA==}
     engines: {node: '>=20.18.1'}
 
   unified@11.0.4:
@@ -3938,7 +3942,7 @@ snapshots:
       '@types/mdx': 2.0.13
       source-map: 0.7.4
       svgo: 3.3.2
-      undici: 7.11.0
+      undici: 7.13.0
       valibot: 1.0.0(typescript@5.8.3)
       vfile: 6.0.2
       vite: 5.4.19(@types/node@22.15.33)
@@ -5141,7 +5145,7 @@ snapshots:
       is-buffer: 2.0.5
       is-node-process: 1.2.0
       throttleit: 2.1.0
-      undici: 5.28.4
+      undici: 5.29.0
 
   '@vercel/build-utils@10.6.5': {}
 
@@ -7670,7 +7674,11 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  undici@7.11.0: {}
+  undici@5.29.0:
+    dependencies:
+      '@fastify/busboy': 2.0.0
+
+  undici@7.13.0: {}
 
   unified@11.0.4:
     dependencies:
